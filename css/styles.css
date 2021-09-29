@@ -1,1 +1,223 @@
+/* Notes */
 
+
+/* HTML ELEMENTS */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 12%;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #79ADDC;
+    color: #EAF0CE;
+}
+
+.white-section {
+    background-color: #EAF0CE;
+    color: #383D3B;
+}
+
+/* Navbar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-right: 40%;
+    color: #EAF0CE;
+}
+
+@media (max-width:768px) {
+    .navbar-brand {
+        padding-right: 0%;
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+}
+
+.nav-item {
+    padding: 0 14px;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+/* Headings */
+
+.big-heading {
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.bigheading-space {
+    margin-bottom: 5rem;
+}
+
+.smallheading-space {
+    margin-bottom: 2rem;
+}
+
+/* Title */
+
+#title {
+    text-align: left;
+}
+
+@media (max-width:768px) {
+    #title {
+        text-align: center;
+    }
+}
+
+#title .container-fluid {
+    padding: 3% 12% 7%;
+
+}
+
+/* Carousel */
+
+.carousel-img {
+    height: 416.859px;
+    width: 555.812px;
+
+}
+
+/* DOWNLOAD BUTTONS */
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+.download-icon {
+    padding-right: 5px;
+}
+
+/* About us */
+
+.aboutus-box {
+    padding: 3%;
+}
+
+.aboutus-title {
+    font-weight: 900;
+}
+
+.aboutus-icon {
+    color: #79ADDC;
+    margin-bottom: 1rem;
+}
+
+.aboutus-icon:hover {
+    color: #383D3B;
+}
+
+/* Enroll Now */
+
+.p-enroll {
+    margin-bottom: 5rem;
+}
+
+#enroll-now .container-fluid {
+    padding: 7% 20%;
+}
+
+/* Testimonial Section */
+.testimonial-img {
+    object-fit: cover;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 100%;
+    margin-bottom: 5%;
+}
+
+.testimonial-text {
+    font-size: 1.3rem;
+    max-width: 300px;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.test-title {
+    font-weight: 900;
+}
+
+.test-place {
+    font-weight: 600;
+    color: #79ADDC;
+}
+
+/* Treks Section */
+
+.card-title {
+    font-weight: 600;
+    color: #383D3B;
+}
+
+.list-group-item {
+    color: #383D3B;
+}
+
+.card-img-top {
+    padding-top: 2%;
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+
+}
+
+.card-header {
+    color: #383D3B;
+}
+
+/* Footer */
+
+#footer {
+    text-align: center;
+}
+
+.social-icon {
+    padding: 20px 10px;
+    color: black;
+}
+
+.social-icon:hover {
+    color: gray;
+}
+
+#footer .container-fluid {
+
+ padding: 0%;
+
+}
