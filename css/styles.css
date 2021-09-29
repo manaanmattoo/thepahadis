@@ -32,11 +32,11 @@ p {
 
 .colored-section {
     background-color: #79ADDC;
-    color: #EAF0CE;
+    color: #FFFFFF;
 }
 
 .white-section {
-    background-color: #EAF0CE;
+    background-color: #FFFFFF;
     color: #383D3B;
 }
 
@@ -51,7 +51,7 @@ p {
     font-size: 2.5rem;
     font-weight: bold;
     padding-right: 40%;
-    color: #EAF0CE;
+    color: #FFFFFF;
 }
 
 @media (max-width:768px) {
